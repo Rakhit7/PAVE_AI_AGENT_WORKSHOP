@@ -27,7 +27,7 @@ from pydantic import BaseModel
 load_dotenv()  # reads GOOGLE_API_KEY from a local .env file, if present
 
 client = genai.Client()  # picks up GOOGLE_API_KEY from the environment
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-3.5-flash"
 MAX_RETRIES = 3
 
 
