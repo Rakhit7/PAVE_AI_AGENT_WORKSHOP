@@ -7,8 +7,8 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
     raise RuntimeError(
-        "GOOGLE_API_KEY not found. Check that a .env file exists in this "
-        "folder and contains a line like: GOOGLE_API_KEY=your-key-here"
+        "GEMINI_API_KEY not found. Check that a .env file exists in this "
+        "folder and contains a line like: GEMINI_API_KEY=your-key-here"
     )
  
 client = genai.Client(api_key=api_key)
