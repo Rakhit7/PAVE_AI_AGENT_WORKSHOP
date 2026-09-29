@@ -23,6 +23,7 @@ EXPERIMENTS WITH THE CODE:
   C. Add a new tool  get_grade(marks: int)  that returns "Pass" if marks >= 40,
      else "Fail". Add it to the tools list, then ask: "Did Bikash pass?"
 """
+# Extra set up: pip install google-adk
 
 import asyncio
 from dotenv import load_dotenv
